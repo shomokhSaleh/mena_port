@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { ArrowLeft, Ship, Shield, Zap, TrendingUp, Package, Clock } from "lucide-react";
 import { motion } from "motion/react";
-import { ImageWithFallback } from "../app/component/figma/ImageWithFallback";
+import { ImageWithFallback } from "../app/component/figma/ImageWithFallback.tsx";
 export function HomePage() {
   const features = [
     {
